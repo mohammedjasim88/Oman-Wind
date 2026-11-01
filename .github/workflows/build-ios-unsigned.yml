@@ -38,12 +38,21 @@ jobs:
           flutter create --project-name oman_wind_explorer --org om.edu.wind --platforms=ios .
           flutter pub get
 
-      # Step 4: Check code and run tests
+      # Step 4: Check code and tests
       - name: Check code and tests
         run: |
-          rm -f test/widget_test.dart
           flutter analyze --no-fatal-infos
-          flutter test
+
+          if [ -f test/widget_test.dart ] && grep -q 'MyApp(' test/widget_test.dart; then
+            rm test/widget_test.dart
+            echo "Removed incompatible default widget test."
+          fi
+
+          if [ -d test ] && find test -type f -name '*_test.dart' | grep -q .; then
+            flutter test
+          else
+            echo "No Flutter unit tests available. Skipping tests."
+          fi
 
       # Step 5: Build iPhone application
       - name: Build iOS without signing

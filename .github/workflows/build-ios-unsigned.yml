@@ -20,45 +20,42 @@ jobs:
     timeout-minutes: 45
 
     steps:
-      # Step 1: Download project
       - name: Download project
         uses: actions/checkout@v4
 
-      # Step 2: Install Flutter
       - name: Install Flutter
         uses: subosito/flutter-action@v2
         with:
           channel: stable
           cache: true
 
-      # Step 3: Generate iOS project
       - name: Create iOS native folder
         run: |
           flutter --version
           flutter create --project-name oman_wind_explorer --org om.edu.wind --platforms=ios .
           flutter pub get
 
-      # Step 4: Check code and tests
-      - name: Check code and tests
+      - name: Remove incompatible default test
         run: |
-          flutter analyze --no-fatal-infos
-
-          if [ -f test/widget_test.dart ] && grep -q 'MyApp(' test/widget_test.dart; then
+          if [ -f test/widget_test.dart ] && grep -Fq "MyApp(" test/widget_test.dart; then
             rm test/widget_test.dart
-            echo "Removed incompatible default widget test."
+            echo "Removed incompatible default MyApp test."
           fi
 
+      - name: Analyze Flutter code
+        run: flutter analyze --no-fatal-infos
+
+      - name: Run available unit tests
+        run: |
           if [ -d test ] && find test -type f -name '*_test.dart' | grep -q .; then
             flutter test
           else
-            echo "No Flutter unit tests available. Skipping tests."
+            echo "No unit tests available. Skipping tests."
           fi
 
-      # Step 5: Build iPhone application
       - name: Build iOS without signing
         run: flutter build ios --release --no-codesign
 
-      # Step 6: Create IPA file
       - name: Package Runner.app as unsigned IPA
         run: |
           test -d build/ios/iphoneos/Runner.app
@@ -67,7 +64,6 @@ jobs:
           ditto -c -k --sequesterRsrc --keepParent Payload Oman-Wind-unsigned.ipa
           test -s Oman-Wind-unsigned.ipa
 
-      # Step 7: Upload IPA
       - name: Upload IPA for Sideloadly
         uses: actions/upload-artifact@v4
         with:

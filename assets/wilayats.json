@@ -1,0 +1,569 @@
+[
+  {
+    "id": "w01",
+    "ar": "مسقط",
+    "en": "Muscat",
+    "governorateAr": "مسقط",
+    "governorateEn": "Muscat",
+    "lat": 23.588,
+    "lon": 58.3829
+  },
+  {
+    "id": "w02",
+    "ar": "مطرح",
+    "en": "Muttrah",
+    "governorateAr": "مسقط",
+    "governorateEn": "Muscat",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w03",
+    "ar": "بوشر",
+    "en": "Bawshar",
+    "governorateAr": "مسقط",
+    "governorateEn": "Muscat",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w04",
+    "ar": "السيب",
+    "en": "Seeb",
+    "governorateAr": "مسقط",
+    "governorateEn": "Muscat",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w05",
+    "ar": "العامرات",
+    "en": "Al Amerat",
+    "governorateAr": "مسقط",
+    "governorateEn": "Muscat",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w06",
+    "ar": "قريات",
+    "en": "Qurayyat",
+    "governorateAr": "مسقط",
+    "governorateEn": "Muscat",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w07",
+    "ar": "صلالة",
+    "en": "Salalah",
+    "governorateAr": "ظفار",
+    "governorateEn": "Dhofar",
+    "lat": 17.0194,
+    "lon": 54.0897
+  },
+  {
+    "id": "w08",
+    "ar": "طاقة",
+    "en": "Taqah",
+    "governorateAr": "ظفار",
+    "governorateEn": "Dhofar",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w09",
+    "ar": "مرباط",
+    "en": "Mirbat",
+    "governorateAr": "ظفار",
+    "governorateEn": "Dhofar",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w10",
+    "ar": "سدح",
+    "en": "Sadah",
+    "governorateAr": "ظفار",
+    "governorateEn": "Dhofar",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w11",
+    "ar": "رخيوت",
+    "en": "Rakhyut",
+    "governorateAr": "ظفار",
+    "governorateEn": "Dhofar",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w12",
+    "ar": "ضلكوت",
+    "en": "Dhalkut",
+    "governorateAr": "ظفار",
+    "governorateEn": "Dhofar",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w13",
+    "ar": "ثمريت",
+    "en": "Thumrait",
+    "governorateAr": "ظفار",
+    "governorateEn": "Dhofar",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w14",
+    "ar": "مقشن",
+    "en": "Muqshin",
+    "governorateAr": "ظفار",
+    "governorateEn": "Dhofar",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w15",
+    "ar": "شليم وجزر الحلانيات",
+    "en": "Shalim and Hallaniyat Islands",
+    "governorateAr": "ظفار",
+    "governorateEn": "Dhofar",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w16",
+    "ar": "المزيونة",
+    "en": "Al Mazyunah",
+    "governorateAr": "ظفار",
+    "governorateEn": "Dhofar",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w17",
+    "ar": "خصب",
+    "en": "Khasab",
+    "governorateAr": "مسندم",
+    "governorateEn": "Musandam",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w18",
+    "ar": "بخاء",
+    "en": "Bukha",
+    "governorateAr": "مسندم",
+    "governorateEn": "Musandam",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w19",
+    "ar": "دبا",
+    "en": "Dibba",
+    "governorateAr": "مسندم",
+    "governorateEn": "Musandam",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w20",
+    "ar": "مدحاء",
+    "en": "Madha",
+    "governorateAr": "مسندم",
+    "governorateEn": "Musandam",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w21",
+    "ar": "البريمي",
+    "en": "Al Buraimi",
+    "governorateAr": "البريمي",
+    "governorateEn": "Al Buraimi",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w22",
+    "ar": "محضة",
+    "en": "Mahdah",
+    "governorateAr": "البريمي",
+    "governorateEn": "Al Buraimi",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w23",
+    "ar": "السنينة",
+    "en": "Al Sunaynah",
+    "governorateAr": "البريمي",
+    "governorateEn": "Al Buraimi",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w24",
+    "ar": "نزوى",
+    "en": "Nizwa",
+    "governorateAr": "الداخلية",
+    "governorateEn": "Ad Dakhiliyah",
+    "lat": 22.9333,
+    "lon": 57.5333
+  },
+  {
+    "id": "w25",
+    "ar": "بهلاء",
+    "en": "Bahla",
+    "governorateAr": "الداخلية",
+    "governorateEn": "Ad Dakhiliyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w26",
+    "ar": "منح",
+    "en": "Manah",
+    "governorateAr": "الداخلية",
+    "governorateEn": "Ad Dakhiliyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w27",
+    "ar": "الحمراء",
+    "en": "Al Hamra",
+    "governorateAr": "الداخلية",
+    "governorateEn": "Ad Dakhiliyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w28",
+    "ar": "أدم",
+    "en": "Adam",
+    "governorateAr": "الداخلية",
+    "governorateEn": "Ad Dakhiliyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w29",
+    "ar": "إزكي",
+    "en": "Izki",
+    "governorateAr": "الداخلية",
+    "governorateEn": "Ad Dakhiliyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w30",
+    "ar": "سمائل",
+    "en": "Samail",
+    "governorateAr": "الداخلية",
+    "governorateEn": "Ad Dakhiliyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w31",
+    "ar": "بدبد",
+    "en": "Bidbid",
+    "governorateAr": "الداخلية",
+    "governorateEn": "Ad Dakhiliyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w32",
+    "ar": "الجبل الأخضر",
+    "en": "Al Jabal Al Akhdar",
+    "governorateAr": "الداخلية",
+    "governorateEn": "Ad Dakhiliyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w33",
+    "ar": "صحار",
+    "en": "Sohar",
+    "governorateAr": "شمال الباطنة",
+    "governorateEn": "North Al Batinah",
+    "lat": 24.35,
+    "lon": 56.73
+  },
+  {
+    "id": "w34",
+    "ar": "شناص",
+    "en": "Shinas",
+    "governorateAr": "شمال الباطنة",
+    "governorateEn": "North Al Batinah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w35",
+    "ar": "لوى",
+    "en": "Liwa",
+    "governorateAr": "شمال الباطنة",
+    "governorateEn": "North Al Batinah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w36",
+    "ar": "صحم",
+    "en": "Saham",
+    "governorateAr": "شمال الباطنة",
+    "governorateEn": "North Al Batinah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w37",
+    "ar": "الخابورة",
+    "en": "Al Khaburah",
+    "governorateAr": "شمال الباطنة",
+    "governorateEn": "North Al Batinah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w38",
+    "ar": "السويق",
+    "en": "As Suwaiq",
+    "governorateAr": "شمال الباطنة",
+    "governorateEn": "North Al Batinah",
+    "lat": 23.84944,
+    "lon": 57.43861
+  },
+  {
+    "id": "w39",
+    "ar": "الرستاق",
+    "en": "Rustaq",
+    "governorateAr": "جنوب الباطنة",
+    "governorateEn": "South Al Batinah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w40",
+    "ar": "العوابي",
+    "en": "Al Awabi",
+    "governorateAr": "جنوب الباطنة",
+    "governorateEn": "South Al Batinah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w41",
+    "ar": "نخل",
+    "en": "Nakhal",
+    "governorateAr": "جنوب الباطنة",
+    "governorateEn": "South Al Batinah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w42",
+    "ar": "وادي المعاول",
+    "en": "Wadi Al Maawil",
+    "governorateAr": "جنوب الباطنة",
+    "governorateEn": "South Al Batinah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w43",
+    "ar": "بركاء",
+    "en": "Barka",
+    "governorateAr": "جنوب الباطنة",
+    "governorateEn": "South Al Batinah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w44",
+    "ar": "المصنعة",
+    "en": "Al Musannah",
+    "governorateAr": "جنوب الباطنة",
+    "governorateEn": "South Al Batinah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w45",
+    "ar": "إبراء",
+    "en": "Ibra",
+    "governorateAr": "شمال الشرقية",
+    "governorateEn": "North Ash Sharqiyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w46",
+    "ar": "المضيبي",
+    "en": "Al Mudhaibi",
+    "governorateAr": "شمال الشرقية",
+    "governorateEn": "North Ash Sharqiyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w47",
+    "ar": "بدية",
+    "en": "Bidiyah",
+    "governorateAr": "شمال الشرقية",
+    "governorateEn": "North Ash Sharqiyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w48",
+    "ar": "القابل",
+    "en": "Al Qabil",
+    "governorateAr": "شمال الشرقية",
+    "governorateEn": "North Ash Sharqiyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w49",
+    "ar": "وادي بني خالد",
+    "en": "Wadi Bani Khalid",
+    "governorateAr": "شمال الشرقية",
+    "governorateEn": "North Ash Sharqiyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w50",
+    "ar": "دماء والطائيين",
+    "en": "Dima Wattayeen",
+    "governorateAr": "شمال الشرقية",
+    "governorateEn": "North Ash Sharqiyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w51",
+    "ar": "سناو",
+    "en": "Sinaw",
+    "governorateAr": "شمال الشرقية",
+    "governorateEn": "North Ash Sharqiyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w52",
+    "ar": "صور",
+    "en": "Sur",
+    "governorateAr": "جنوب الشرقية",
+    "governorateEn": "South Ash Sharqiyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w53",
+    "ar": "الكامل والوافي",
+    "en": "Al Kamil Wal Wafi",
+    "governorateAr": "جنوب الشرقية",
+    "governorateEn": "South Ash Sharqiyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w54",
+    "ar": "جعلان بني بو حسن",
+    "en": "Jalan Bani Bu Hassan",
+    "governorateAr": "جنوب الشرقية",
+    "governorateEn": "South Ash Sharqiyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w55",
+    "ar": "جعلان بني بو علي",
+    "en": "Jalan Bani Bu Ali",
+    "governorateAr": "جنوب الشرقية",
+    "governorateEn": "South Ash Sharqiyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w56",
+    "ar": "مصيرة",
+    "en": "Masirah",
+    "governorateAr": "جنوب الشرقية",
+    "governorateEn": "South Ash Sharqiyah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w57",
+    "ar": "عبري",
+    "en": "Ibri",
+    "governorateAr": "الظاهرة",
+    "governorateEn": "Ad Dhahirah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w58",
+    "ar": "ينقل",
+    "en": "Yanqul",
+    "governorateAr": "الظاهرة",
+    "governorateEn": "Ad Dhahirah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w59",
+    "ar": "ضنك",
+    "en": "Dhank",
+    "governorateAr": "الظاهرة",
+    "governorateEn": "Ad Dhahirah",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w60",
+    "ar": "هيماء",
+    "en": "Haima",
+    "governorateAr": "الوسطى",
+    "governorateEn": "Al Wusta",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w61",
+    "ar": "محوت",
+    "en": "Mahout",
+    "governorateAr": "الوسطى",
+    "governorateEn": "Al Wusta",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w62",
+    "ar": "الدقم",
+    "en": "Duqm",
+    "governorateAr": "الوسطى",
+    "governorateEn": "Al Wusta",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "w63",
+    "ar": "الجازر",
+    "en": "Al Jazer",
+    "governorateAr": "الوسطى",
+    "governorateEn": "Al Wusta",
+    "lat": null,
+    "lon": null
+  }
+]
